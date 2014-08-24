@@ -1,0 +1,93 @@
+/*-----------------------------------------------------------------------------------*/
+/*	01.	Animation for -moz-
+/*-----------------------------------------------------------------------------------*/
+
+@-moz-keyframes init {
+	0%, 10% { background:#000; visibility:visible; opacity:1; z-index:100; }
+	11%, 12% { background:#fff; }
+	13%, 96% { visibility:visible; opacity:1; z-index:100; }
+	97%, 98% { opacity:0; }
+	100% { z-index:-100; visibility:hidden; background:#fff;}
+}
+
+@-moz-keyframes initApple {
+	0%, 99% { visibility:hidden; opacity:0; }
+	100% { visibility:visible; opacity:1; }
+}
+
+@-moz-keyframes initLoading {
+	0%, 19% { visibility:hidden; opacity:0; }
+	20%, 99% { visibility:visible; opacity:1; }
+	100% { visibility:hidden; opacity:0; }
+}
+
+@-moz-keyframes initLoginWindow {
+	0%, 96% { visibility:hidden; opacity:0; }
+	97%, 99% { opacity:1; visibility:visible; z-index:0; }
+	100% { z-index:0; opacity:1; visibility:visible;}
+}
+
+@-moz-keyframes initAppleLoginWindow {
+	0% { top:50%; }
+	100% { top:25%; }
+}
+
+@-moz-keyframes initUserAvatar {
+	0% { opacity:0; }
+	100% { opacity:1; }
+}
+
+@-moz-keyframes delete {
+	0% { opacity:1; }
+	99% { opacity:0; }
+	100% { visibility:hidden; }
+}
+
+@-moz-keyframes show {
+	0% { opacity:0; }
+	100% { opacity:1; }
+}
+
+@-moz-keyframes charge {
+	0%, 94% { opacity:1; }
+	95%, 100% { opacity:0; }
+}
+
+@-moz-keyframes del {
+	0%, 100% { opacity:0; visibility:visible; }
+}
+
+@-moz-keyframes error {
+	0% { -moz-transform:translateX(0px); }
+	25% { -moz-transform:translateX(30px); }
+	45% { -moz-transform:translateX(-30px); }
+	65% { -moz-transform:translateX(30px); }
+	82% { -moz-transform:translateX(-30px); }
+	94% { -moz-transform:translateX(30px); }
+	35%, 55%, 75%, 87%, 97%, 100% { -moz-transform:translateX(0px); }
+}
+
+@-moz-keyframes initDesktopLogin {
+	0% { opacity:1; visibility:visible; }
+	99% { opacity:0; }
+	100% { visibility:hidden; }
+}
+
+@-moz-keyframes initDesktop {
+	0% { z-index:-1; -moz-transform:scale(0,0); opacity:0; visibility:hidden; }
+	1% { z-index:0; -moz-transform:scale(0,0); opacity:0; visibility:visible; }
+	50% { z-index:0; -moz-transform:scale(0.5,0.5); opacity:1; visibility:visible;}
+	100% { z-index:0; -moz-transform:scale(1,1); opacity:1; visibility:visible;}
+}
+
+@-moz-keyframes initDesktopHeader {
+	0% { opacity:0; visibility:visible; }
+	95% { opacity:0; visibility:visible; }
+	100% { opacity:1; visibility:visible; }
+}
+
+@-moz-keyframes initDesktopWindows {
+	0% { opacity:0; visibility:visible; }
+	99% { opacity:0; visibility:visible; }
+	100% { opacity:1; visibility:visible; }
+}
