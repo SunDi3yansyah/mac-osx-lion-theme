@@ -301,7 +301,7 @@ input[type=password]:focus ~ .tooltip-pass {
 	position:absolute;
 	text-align:center;
 	width:330px;
-	height:90px;
+	height:30px;
 	left:50%;
 	margin-left:-165px;
 	top:37px;
